@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1주 차 주말 과제</title>
+</head>
+<style>
+    table{ 
+        border-collapse: collapse; /* 각 td 의 border 로 인해 겹치는 이중선 제거하기 */
+        width: 1000px;
+        border: 1px solid #222;
+        text-align: center;
+        table-layout: fixed; /* 테이블 너비 불일치 해결 */
+    } 
+    th {
+        font-size: 15px;
+        font-weight: 600;
+        border: 1px solid #222;
+        background-color: #efefef;
+        padding: 8px;
+    }
+    td{
+        font-size: 13px;
+        font-weight: 300;
+        text-align: center;
+        border: 1px solid #222;
+        vertical-align: middle;
+        text-align: left;
+        padding: 8px;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>시간</td>
+            <th>월요일</td>
+            <th>화요일</td>
+            <th>수요일</td>
+            <th>목요일</td>
+            <th>금요일</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align: center">9:00~12:00</td>
+            <td>HTML 학습</td>
+            <td>CSS 학습</td>
+            <td>SCSS 학습</td>
+            <td>JavaScript 학습</td>
+            <td>React 학습</td>
+        </tr>
+        <tr>
+            <td style="text-align: center"><p>공통 회의</p><p>(5일 공통)</p></td>
+            <td colspan="4" style="text-align: center">공통회의</td>
+        </tr>
+        <tr>
+            <td>코딩 실습</td>
+            <td>코딩 실습</td>
+            <td>코딩 실습</td>
+            <td>코딩 실습</td>
+            <td>코딩 실습</td>
+        </tr>
+    </table>
+</body>
+</html>
